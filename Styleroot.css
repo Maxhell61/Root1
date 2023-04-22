@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	background-color: var(--bg_color);
+	height: 100vh;
+	width: 100%;
+}
+
+
+}
+.text {
+	--x1: "Doroshyn";
+}
+.x1::after{
+	content: var(--x1);
+	font-size: var(--size);
+}
+:root{
+	--bg_color : yellow;
+	--bg_btn : red;
+	--bg_block : black;
+	--size: 30px;
+	--text_color: white;
+}
+:root[theme="dark"] {
+	--bg_color : black;
+	--bg_btn : yellow;
+	--bg_block : red;
+	--text_color: black;
+}
